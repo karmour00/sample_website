@@ -6,21 +6,21 @@
   </head>
   <body>
 
-    <div>
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="margin: 0 5px; text-decoration: none;">Home</a>
+      <a href="tags.html" style="margin: 0 5px; text-decoration: none;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin: 0 5px; text-decoration: none;">Moby Dick</a>
     </div>
 
-    <header>
+    <header style="text-align: center; margin: 0 0 80px;">
       <h1>Important HTML tags</h1>
     </header>
 
-    <a href="https://www.flickr.com/photos/jdhancock/3814523970">
-    <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
-    </a>
+    <div style="width: 600px; margin: 20px auto; padding: 30px; background-color: #fafafa;">
+      <a href="https://www.flickr.com/photos/jdhancock/3814523970">
+      <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper" style="float: left; margin-right: 20px;">
+      </a>
 
-    <div>
       <p>
         This page is designed as a quick reference for some of the common tags covered in <a href="http://learnenough.com/html-tutorial"><em>Learn Enough HTML to Be Dangerous</em></a>. In the process of making it, we'll learn how to make HTML <em>tables</em> via <code>table</code> and related tags.
       </p>
@@ -28,9 +28,42 @@
       <p>
         The tables below don't include all HTML tags, but they do list many of the most important ones.
       </p>
-    </div>
 
-    <div>
+      <h2><span>Document Tags</span></h2>
+
+        <table>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Purpose</th>
+          </tr>
+          <tr>
+            <td><code>html</code></td>
+            <td>html</td>
+            <td>declare an html doctype</td>
+          </tr>
+          <tr>
+            <td><code>head</code></td>
+            <td>head</td>
+            <td>include document properties</td>
+          </tr>
+          <tr>
+            <td><code>body</code></td>
+            <td>body</td>
+            <td>contain main body of document</td>
+          </tr>
+          <tr>
+            <td><code>title</code></td>
+            <td>title</td>
+            <td>declare document title</td>
+          </tr>
+          <tr>
+            <td><code>meta</code></td>
+            <td>meta</td>
+            <td>provide metadata about document</td>
+          </tr>
+        </table>
+
       <h2><span>Block Elements</span></h2>
 
       <table>
@@ -80,9 +113,7 @@
           <td>make and unordered list</td>
         </tr>
       </table>
-    </div>
 
-    <div>
       <h2><span>Inline Elements</span></h2>
 
       <table>
